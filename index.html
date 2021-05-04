@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello</h1>
+
+    <script>
+        function add7(input_num) {
+            input_num += 7;
+            return input_num;
+        }
+
+        function multiply(input_num_1, input_num_2) {
+            return input_num_1 * input_num_2;
+        }
+
+        function capitalize(string_input) {
+            let all_lower = string_input.toLowerCase();
+            let capitalized = all_lower.charAt(0).toUpperCase() + all_lower.slice(1);
+            return(capitalized);
+        }
+
+        function lastLetter(string_input) {
+            let string_length = string_input.length;
+            return(string_input.slice(string_length-1));
+        }
+    </script>
+</body>
+</html>
